@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>番剧库 - 动漫笔记</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- 头部导航 -->
+  <header class="header">
+    <div class="container">
+      <A href="index.html"><div class="logo">动漫笔记</div></A>
+      <input type="text" class="search-box" placeholder="搜索番剧/漫评/作者">
+      <div class="nav-user">
+        <a href="#" class="btn btn-primary">注册</a>
+        <a href="#" class="btn btn-secondary">登录</a>
+        <A href="personal-center.html"><div class="avatar">
+          <i class="fa-solid fa-user"></i>
+        </div></A>
+      </div>
+    </div>
+  </header>
+
+  <!-- 筛选栏 -->
+  <section class="container">
+    <div class="filter-bar">
+      <div class="filter-item">
+        <label>类型：</label>
+        <select>
+          <option value="">全部</option>
+          <option value="hot">热血</option>
+          <option value="heal">治愈</option>
+          <option value="scifi">科幻</option>
+          <option value="comedy">喜剧</option>
+        </select>
+      </div>
+      <div class="filter-item">
+        <label>年代：</label>
+        <select>
+          <option value="">全部</option>
+          <option value="2020">2020后</option>
+          <option value="2010">2010-2020</option>
+          <option value="2000">2000-2010</option>
+        </select>
+      </div>
+      <div class="filter-item">
+        <label>地区：</label>
+        <select>
+          <option value="">全部</option>
+          <option value="jp">日本</option>
+          <option value="cn">国产</option>
+          <option value="us">欧美</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- 番剧列表 -->
+    <h2 class="section-title">番剧列表</h2>
+    <div class="library-list">
+      <div class="card anime-card">
+         <A href="anime-detail.html"><img src="https://puui.qpic.cn/vcover_vt_pic/0/xiijm0os2zcnel2t1444934554.jpg/0" alt="番剧封面">
+              <div class="anime-name">夏目友人帐 第七季</div>
+              <div class="anime-score">评分：9.8</div></A>
+        <div style="margin-top: 8px; display: flex; gap: 8px;">
+          <button class="btn btn-primary btn-follow">追番</button>
+          <button class="btn btn-secondary btn-collect">收藏</button>
+        </div>
+      </div>
+      <div class="card anime-card">
+        <img src="https://imgs.tom.com/gossip/202202/1150401133/CONTENTda4f4e172f5a92c0.jpg" alt="番剧封面">
+              <div class="anime-name">咒术回战 第二季</div>
+              <div class="anime-score">评分：9.5</div>
+        <div style="margin-top: 8px; display: flex; gap: 8px;">
+          <button class="btn btn-primary btn-follow">追番</button>
+          <button class="btn btn-secondary btn-collect">收藏</button>
+        </div>
+      </div>
+      <div class="card anime-card">
+       <img src="https://ts3.tc.mm.bing.net/th/id/OIP-C.ppfSTBLBF0KosVzdrkxtcgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" alt="番剧封面">
+              <div class="anime-name">间谍过家家 第二季</div>
+              <div class="anime-score">评分：9.7</div>
+        <div style="margin-top: 8px; display: flex; gap: 8px;">
+          <button class="btn btn-primary btn-follow">追番</button>
+          <button class="btn btn-secondary btn-collect">收藏</button>
+        </div>
+      </div>
+      <div class="card anime-card">
+        <img src="https://c-ssl.duitang.com/uploads/blog/202211/26/20221126191702_38dcd.jpg" alt="番剧封面">
+        <div class="anime-name">孤独摇滚！</div>
+        <div class="anime-score">评分：9.6</div>
+        <div style="margin-top: 8px; display: flex; gap: 8px;">
+          <button class="btn btn-primary btn-follow">追番</button>
+          <button class="btn btn-secondary btn-collect">收藏</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 底部 -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="#">关于我们</a>
+        <a href="#">意见反馈</a>
+        <a href="#">FAQ帮助</a>
+        <a href="#">隐私政策</a>
+      </div>
+      <div class="copyright">
+        © 2025 动漫笔记 版权所有
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
